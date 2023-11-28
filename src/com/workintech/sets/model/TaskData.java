@@ -8,6 +8,12 @@ public class TaskData {
     private Set<Task> bobsTasks;
     private Set<Task> carolsTasks;
 
+    public TaskData(Set<Task> annsTasks, Set<Task> bobsTasks, Set<Task> carolsTasks) {
+        this.annsTasks = annsTasks;
+        this.bobsTasks = bobsTasks;
+        this.carolsTasks = carolsTasks;
+    }
+
     public Set<Task> getAnnsTasks() {
         return annsTasks;
     }
